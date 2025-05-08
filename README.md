@@ -1,39 +1,58 @@
-# WebGIS- Attribute tool query
-This project is a Web GIS application that uses OpenLayers and GeoExt for map visualization and interaction. Follow the steps below to set up and run the application.
+# Ext JS GPL
 
-## Prerequisites
+You can use this git repo in your own git repos:
 
-1. **Apache Tomcat**: Download and install [Apache Tomcat](https://tomcat.apache.org/download-90.cgi) (version 9.0 or later is recommended).
-2. **Web Browser**: Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
+Add it as a submodule on your own project
 
-## Installation and Setup
+    $ cd my-project-dir
+    $ git submodule add git@github.com:xantus/ext-js-gpl.git ext-js
+    $ git submodule update --init
 
-1. **Download Apache Tomcat**:
-   - Visit the [Apache Tomcat download page](https://tomcat.apache.org/download-90.cgi).
-   - Download the appropriate version for your operating system.
-   - Install Apache Tomcat and ensure it is running.
+## Other ways to get Ext JS
 
-2. **Add the Project Files**:
-   - Copy the `query_panel.html` file and any associated resources (e.g., images, scripts, stylesheets) to the `webapps/test` directory inside your Apache Tomcat installation. For example:
-     ```
-     C:\Program Files (x86)\Apache Software Foundation\Tomcat 9.0\webapps\test
-     ```
+### Ext JS Version 4.2.1
 
-3. **Start Apache Tomcat**:
-   - Open the Apache Tomcat control panel or terminal and start the server.
+**You can get it directly here**
 
-4. **Access the Application**:
-   - Open your web browser and navigate to:
-     ```
-     http://localhost:8081/test/query_panel.html
-     ```
+http://cdn.sencha.com/ext/gpl/ext-4.2.1-gpl.zip
 
-5. **Verify the Application**:
-   - Ensure the map and tools (e.g., zoom, pan, measure) are working as expected.
+**You can use the cachefly CDN**
 
-## Notes
+http://cdn.sencha.io/ext-4.2.0-gpl/ext-all.js
 
-- The application uses external libraries like OpenLayers and GeoExt. Ensure the URLS in the `<script>` and `<link>` tags in `query_panel.html` are accessible.
-- If you encounter issues, check the browser console for errors and verify that all required resources are correctly loaded.
+**I prefer the protocol independent url**
 
+//extjs.cachefly.net/ext-4.2.0-gpl/ext-all.js
+
+
+## Ext JS
+### Sencha Frameworks
+
+**Ext JS**
+* http://www.sencha.com/products/extjs/
+
+**Sencha Touch**
+* http://www.sencha.com/products/touch/
+
+**Sencha GXT**
+* http://www.sencha.com/products/gxt/
+
+**Sencha Cmd**
+* http://www.sencha.com/blog/all-new-sencha-cmd/
+  * **Windows**
+    * http://cdn.sencha.com/cmd/4.0.2.67/SenchaCmd-4.0.2.67-windows.exe.zip
+  * **Mac**
+    * http://cdn.sencha.com/cmd/4.0.2.67/SenchaCmd-4.0.2.67-osx.app.zip
+  * **Linux 32bit**
+    * http://cdn.sencha.com/cmd/4.0.2.67/SenchaCmd-4.0.2.67-linux.run.zip
+  * **Linux 64bit**
+    * http://cdn.sencha.com/cmd/4.0.2.67/SenchaCmd-4.0.2.67-linux-x64.run.zip
+
+### Tools
+
+**Sencha Animator**
+* https://www.sencha.com/products/animator/
+
+**Sencha Architect**
+* https://www.sencha.com/products/architect/
 
